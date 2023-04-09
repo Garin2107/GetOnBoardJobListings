@@ -1,16 +1,10 @@
-//
-//  ViewController.swift
-//  GetOnBoardJobListings
-//
-//  Created by Antonio Garin on 14-03-23.
-//
 
 import UIKit
 
 class CategoriesViewController: UIViewController {
 	
-    private let presenter = CategoryPresenter()
-    private var categories: Categories?
+    let presenter = CategoryPresenter()
+    var categories: Categories?
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
@@ -24,7 +18,7 @@ class CategoriesViewController: UIViewController {
 		
 		// Presenter
 		presenter.setViewDelegate(delegate: self)
-		presenter.getCategories()		
+		presenter.getCategories()
 	}
 	
 	override func viewDidLayoutSubviews() {
@@ -42,13 +36,8 @@ class CategoriesViewController: UIViewController {
 
 extension CategoriesViewController: UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-		if let countOfCategories = categories?.data?.count {
-			return countOfCategories
-		} else {
-			return 0
-		}
-		
-		
+		guard let countOfCategories = categories?.data?.count else { return 0 }
+		return countOfCategories
 	}
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {

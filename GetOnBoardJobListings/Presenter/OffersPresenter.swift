@@ -14,7 +14,6 @@ protocol OffersPresenterDelegate: AnyObject {
 class OffersPresenter {
 	var delegate: OffersPresenterDelegate?
 	
-	
 	func getOffers(type: String) {
 		
 		guard let url = URL(string: "https://www.getonbrd.com/api/v0/categories/\(type)/jobs?expand=[%22company%22]") else { return }

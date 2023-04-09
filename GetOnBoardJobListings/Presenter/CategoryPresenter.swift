@@ -36,4 +36,5 @@ class CategoryPresenter {
     public func setViewDelegate(delegate: PresenterDelegate) {
         self.delegate = delegate
     }
+	
 }

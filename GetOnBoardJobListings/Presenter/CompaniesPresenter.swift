@@ -14,7 +14,6 @@ protocol CompaniesPresenterDelegate {
 
 class CompaniesPresenter {
 	
-	
 	var delegate: CompaniesPresenterDelegate?
 	
 	public func getCompanies() {
@@ -35,12 +34,9 @@ class CompaniesPresenter {
 				print(error)
 			}
 			
-		
 		}
 		task.resume()
-		
-		
-		
+
 	}
 	
 	func setViewDelegate(delegate: CompaniesPresenterDelegate & UIViewController) {

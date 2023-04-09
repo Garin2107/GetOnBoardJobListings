@@ -10,10 +10,12 @@
 		1D174E6929D1E2F200F0FB32 /* Offers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D174E6829D1E2F200F0FB32 /* Offers.swift */; };
 		1D174E6B29D1E51900F0FB32 /* OffersPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D174E6A29D1E51900F0FB32 /* OffersPresenter.swift */; };
 		1D174E6D29D1FEC300F0FB32 /* OffersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D174E6C29D1FEC300F0FB32 /* OffersViewController.swift */; };
+		1D36FA9329DF7C850011D77F /* OfferDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D36FA9229DF7C850011D77F /* OfferDetail.swift */; };
 		1D8BCFDC29C8F7E900084AF2 /* CompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BCFDB29C8F7E900084AF2 /* CompaniesViewController.swift */; };
 		1D8BCFDE29C9DB0C00084AF2 /* Companies.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1D8BCFDD29C9DB0C00084AF2 /* Companies.swift */; };
 		1DB9388C29CBA35700AF8766 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9388B29CBA35700AF8766 /* TabBarViewController.swift */; };
 		1DB9388E29CBAFB500AF8766 /* CompaniesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9388D29CBAFB500AF8766 /* CompaniesPresenter.swift */; };
+		1DDBC8E229E341CD00104326 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBC8E129E341CD00104326 /* CompanyTableViewCell.swift */; };
 		1DE9F53029C128220008CEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F52F29C128220008CEFA /* AppDelegate.swift */; };
 		1DE9F53229C128220008CEFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F53129C128220008CEFA /* SceneDelegate.swift */; };
 		1DE9F53429C128220008CEFA /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F53329C128220008CEFA /* CategoriesViewController.swift */; };
@@ -47,10 +49,12 @@
 		1D174E6829D1E2F200F0FB32 /* Offers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Offers.swift; sourceTree = "<group>"; };
 		1D174E6A29D1E51900F0FB32 /* OffersPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersPresenter.swift; sourceTree = "<group>"; };
 		1D174E6C29D1FEC300F0FB32 /* OffersViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewController.swift; sourceTree = "<group>"; };
+		1D36FA9229DF7C850011D77F /* OfferDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfferDetail.swift; sourceTree = "<group>"; };
 		1D8BCFDB29C8F7E900084AF2 /* CompaniesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewController.swift; sourceTree = "<group>"; };
 		1D8BCFDD29C9DB0C00084AF2 /* Companies.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Companies.swift; sourceTree = "<group>"; };
 		1DB9388B29CBA35700AF8766 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1DB9388D29CBAFB500AF8766 /* CompaniesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesPresenter.swift; sourceTree = "<group>"; };
+		1DDBC8E129E341CD00104326 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
 		1DE9F52C29C128220008CEFA /* GetOnBoardJobListings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOnBoardJobListings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE9F52F29C128220008CEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE9F53129C128220008CEFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -116,6 +120,7 @@
 			isa = PBXGroup;
 			children = (
 				1DB9388B29CBA35700AF8766 /* TabBarViewController.swift */,
+				1DDBC8E129E341CD00104326 /* CompanyTableViewCell.swift */,
 				1DE9F56129C128B10008CEFA /* Views */,
 				1DE9F56029C128A90008CEFA /* Presenter */,
 				1DE9F55F29C1289C0008CEFA /* Models */,
@@ -171,6 +176,7 @@
 				1DE9F53329C128220008CEFA /* CategoriesViewController.swift */,
 				1D8BCFDB29C8F7E900084AF2 /* CompaniesViewController.swift */,
 				1D174E6C29D1FEC300F0FB32 /* OffersViewController.swift */,
+				1D36FA9229DF7C850011D77F /* OfferDetail.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -308,12 +314,14 @@
 				1D174E6B29D1E51900F0FB32 /* OffersPresenter.swift in Sources */,
 				1D174E6D29D1FEC300F0FB32 /* OffersViewController.swift in Sources */,
 				1DB9388C29CBA35700AF8766 /* TabBarViewController.swift in Sources */,
+				1DDBC8E229E341CD00104326 /* CompanyTableViewCell.swift in Sources */,
 				1D8BCFDC29C8F7E900084AF2 /* CompaniesViewController.swift in Sources */,
 				1D174E6929D1E2F200F0FB32 /* Offers.swift in Sources */,
 				61E3850529C4F03F00A1DF97 /* CategoryPresenter.swift in Sources */,
 				1D8BCFDE29C9DB0C00084AF2 /* Companies.swift in Sources */,
 				1DE9F53429C128220008CEFA /* CategoriesViewController.swift in Sources */,
 				1DE9F53029C128220008CEFA /* AppDelegate.swift in Sources */,
+				1D36FA9329DF7C850011D77F /* OfferDetail.swift in Sources */,
 				1DE9F56529C200BC0008CEFA /* Categories.swift in Sources */,
 				1DE9F53229C128220008CEFA /* SceneDelegate.swift in Sources */,
 				1DB9388E29CBAFB500AF8766 /* CompaniesPresenter.swift in Sources */,
