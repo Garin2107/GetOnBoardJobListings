@@ -12,10 +12,8 @@ class TabBarViewController: UITabBarController {
 	 
 	override func viewDidLoad() {
 		super.viewDidLoad()
-		
-		
-		view.backgroundColor = .systemMint
-		UITabBar.appearance().barTintColor = .systemMint
+		view.backgroundColor = .white
+		UITabBar.appearance().barTintColor = UIColor(red: 248, green: 110, blue: 110, alpha: 0)
 		tabBar.tintColor = .label
 		setupVCs()
 	}
@@ -27,7 +25,7 @@ class TabBarViewController: UITabBarController {
 		navController.tabBarItem.title = title
 		navController.tabBarItem.image = image
 		navController.navigationBar.prefersLargeTitles = true
-		navController.navigationBar.backgroundColor = .systemMint
+		navController.navigationBar.backgroundColor = .systemBackground
 		rootViewController.navigationItem.title = title
 		
 		return navController
@@ -41,9 +39,7 @@ class TabBarViewController: UITabBarController {
 			createNavController(for: CompaniesViewController(),
 								title: NSLocalizedString("Job Listings", comment: ""),
 								image: UIImage(systemName: "person.3.sequence")!),
-			  
 		  ]
-		
 	}
 }
 

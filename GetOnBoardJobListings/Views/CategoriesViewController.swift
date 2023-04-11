@@ -10,13 +10,11 @@ class CategoriesViewController: UIViewController {
 		super.viewDidLoad()
 		title = "Categories"
 		
-		// Table
 		view.addSubview(tableView)
 		tableView.delegate = self
 		tableView.dataSource = self
-		tableView.backgroundColor = .systemMint
+		tableView.backgroundColor = .white
 		
-		// Presenter
 		presenter.setViewDelegate(delegate: self)
 		presenter.getCategories()
 	}
@@ -42,13 +40,11 @@ extension CategoriesViewController: UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
-        
         var listContentConfiguration = UIListContentConfiguration.cell()
 		listContentConfiguration.text = categories?.data?[indexPath.row].attributes.name
         cell.contentConfiguration = listContentConfiguration
-		cell.backgroundColor = .systemOrange
+		cell.backgroundColor = .white
 		
-        
         return cell
     }
 }
@@ -57,13 +53,11 @@ extension CategoriesViewController: UITableViewDelegate {
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
 		tableView.deselectRow(at: indexPath, animated: true)
 		guard let id = categories?.data?[indexPath.row].id else { return }
-		
 		let viewController = OffersViewController()
 		viewController.type = id
 		
 		self.navigationController?.pushViewController(viewController, animated: true)
 	}
-	
 }
 
 extension CategoriesViewController: CategoryPresenterDelegate {

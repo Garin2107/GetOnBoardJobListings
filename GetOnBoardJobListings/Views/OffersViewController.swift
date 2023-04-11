@@ -28,10 +28,10 @@ class OffersViewController: UIViewController {
 		
 		offersTable.delegate = self
 		offersTable.dataSource = self
+		offersTable.backgroundColor = .white
 		presenter.getOffers(type: type)
 		presenter.setViewDelegate(delegate: self)
 		
-		offersTable.backgroundColor = .systemMint
 		DispatchQueue.main.asyncAfter(deadline: .now()) {
 			activity.startAnimating()
 		}
@@ -45,7 +45,6 @@ class OffersViewController: UIViewController {
 		offersTable.frame = view.bounds
 		offersTable.reloadData()
 	}
-	
 }
 
 extension OffersViewController: UITableViewDelegate {
@@ -59,7 +58,6 @@ extension OffersViewController: UITableViewDelegate {
 		viewController.body	= jobDescription
 		self.navigationController?.pushViewController(viewController, animated: true)
 	}
-	
 }
 
 extension OffersViewController: UITableViewDataSource {
@@ -74,7 +72,7 @@ extension OffersViewController: UITableViewDataSource {
 		
 		var listContentConfiguration = UIListContentConfiguration.cell()
 		listContentConfiguration.text = offers?.data?[indexPath.row].attributes?.title
-		
+
 		descriptionText = descriptionText.replacingOccurrences(of: "<li>", with: "")
 		descriptionText = descriptionText.replacingOccurrences(of: "</li>", with: "")
 		descriptionText = descriptionText.replacingOccurrences(of: "</div>", with: "")
@@ -96,7 +94,7 @@ extension OffersViewController: UITableViewDataSource {
 		
 		listContentConfiguration.secondaryText = descriptionText
 		cell.contentConfiguration = listContentConfiguration
-		cell.backgroundColor = .systemOrange
+		cell.backgroundColor = .white
 		
 		return cell
 	}
@@ -109,7 +107,5 @@ extension OffersViewController: OffersPresenterDelegate {
 			self.offersTable.reloadData()
 		}
 	}
-	
-	
 }
 

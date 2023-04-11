@@ -7,9 +7,9 @@ class OfferDetail: UIViewController {
 	var header = ""
 	var body = ""
 	
-	var jobTitle = UILabel(frame: CGRect(x: 10, y: 150, width: 400, height: 50))
-	var jobDescription = UITextView(frame: CGRect(x: 10, y: 200, width: 350, height: 500))
-	
+	var jobTitle = UILabel(frame: CGRect(x: 15, y: 150, width: 400, height: 50))
+	var jobDescription = UITextView(frame: CGRect(x: 12, y: 200, width: 350, height: 500))
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		title = "Offer Detail"
@@ -21,6 +21,7 @@ class OfferDetail: UIViewController {
 		jobTitle.text = header
 		jobTitle.isHighlighted = true
 		jobTitle.numberOfLines = 0
+		jobTitle.font = UIFont.boldSystemFont(ofSize: 20)
 		
 		body = body.replacingOccurrences(of: "<li>", with: "")
 		body = body.replacingOccurrences(of: "</li>", with: "")
@@ -43,7 +44,8 @@ class OfferDetail: UIViewController {
 		
 		jobDescription.text = body
 		jobDescription.textAlignment = .left
-		jobDescription.backgroundColor = .systemMint
+		jobDescription.backgroundColor = .white
+		jobDescription.font = UIFont.boldSystemFont(ofSize: 16)
 		
 		view.addSubview(jobTitle)
 		view.addSubview(jobDescription)
@@ -55,6 +57,5 @@ class OfferDetail: UIViewController {
 		DispatchQueue.main.asyncAfter(deadline: .now() + 2) {
 			activity.stopAnimating()
 		}
-		
 	}
 }

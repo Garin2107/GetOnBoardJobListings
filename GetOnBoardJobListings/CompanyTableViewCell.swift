@@ -29,11 +29,6 @@ class CompanyTableViewCell: UITableViewCell {
 		companyLabel.topAnchor.constraint(equalTo: self.containerView.topAnchor).isActive = true
 		companyLabel.leadingAnchor.constraint(equalTo: self.containerView.leadingAnchor).isActive = true
 		companyLabel.trailingAnchor.constraint(equalTo: self.containerView.trailingAnchor).isActive = true
-		
-		companyDetailedLabel.topAnchor.constraint(equalTo:self.companyLabel.bottomAnchor).isActive = true
-		companyDetailedLabel.leadingAnchor.constraint(equalTo:self.containerView.leadingAnchor).isActive = true
-		companyDetailedLabel.topAnchor.constraint(equalTo:self.companyLabel.bottomAnchor).isActive = true
-		
 	}
 	
 	required init?(coder aDecoder: NSCoder) {
@@ -65,6 +60,7 @@ class CompanyTableViewCell: UITableViewCell {
 		label.layer.cornerRadius = 5
 		label.clipsToBounds = true
 		label.translatesAutoresizingMaskIntoConstraints = false
+		label.numberOfLines = 0
 		return label
 	}()
 	

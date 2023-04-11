@@ -1,21 +1,16 @@
 
 import Foundation
 
-// MARK: - Companies
 struct Companies: Codable {
-
 	var data: [CompanyDatum]?
-	
 }
 
-// MARK: - Datum
 struct CompanyDatum: Codable {
 	var id: String?
 	var	type: String?
 	var attributes: CompanyAttributes?
 }
 
-// MARK: - Attributes
 struct CompanyAttributes: Codable {
 	var name: String?
 	var	description: String?
