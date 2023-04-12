@@ -69,9 +69,10 @@ extension OffersViewController: UITableViewDataSource {
 	func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 		let cell = tableView.dequeueReusableCell(withIdentifier: "cell", for: indexPath)
 		guard var descriptionText = offers?.data?[indexPath.row].attributes?.description else { return cell }
+		guard let jobTitle = offers?.data?[indexPath.row].attributes?.title else {return cell}
 		
 		var listContentConfiguration = UIListContentConfiguration.cell()
-		listContentConfiguration.text = offers?.data?[indexPath.row].attributes?.title
+		listContentConfiguration.text = jobTitle
 
 		descriptionText = descriptionText.replacingOccurrences(of: "<li>", with: "")
 		descriptionText = descriptionText.replacingOccurrences(of: "</li>", with: "")

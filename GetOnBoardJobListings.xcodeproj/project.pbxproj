@@ -16,27 +16,20 @@
 		1DB9388C29CBA35700AF8766 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9388B29CBA35700AF8766 /* TabBarViewController.swift */; };
 		1DB9388E29CBAFB500AF8766 /* CompaniesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DB9388D29CBAFB500AF8766 /* CompaniesPresenter.swift */; };
 		1DDBC8E229E341CD00104326 /* CompanyTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DDBC8E129E341CD00104326 /* CompanyTableViewCell.swift */; };
+		1DE5576429E5BD8B005556D4 /* OffersViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5576329E5BD8B005556D4 /* OffersViewControllerTests.swift */; };
+		1DE5576A29E63474005556D4 /* CategoriesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5576929E63474005556D4 /* CategoriesViewControllerTests.swift */; };
+		1DE5576C29E638C3005556D4 /* CompaniesViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE5576B29E638C3005556D4 /* CompaniesViewControllerTests.swift */; };
 		1DE9F53029C128220008CEFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F52F29C128220008CEFA /* AppDelegate.swift */; };
 		1DE9F53229C128220008CEFA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F53129C128220008CEFA /* SceneDelegate.swift */; };
 		1DE9F53429C128220008CEFA /* CategoriesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F53329C128220008CEFA /* CategoriesViewController.swift */; };
 		1DE9F53929C128230008CEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F53829C128230008CEFA /* Assets.xcassets */; };
 		1DE9F53C29C128230008CEFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1DE9F53A29C128230008CEFA /* LaunchScreen.storyboard */; };
-		1DE9F54729C128230008CEFA /* GetOnBoardJobListingsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F54629C128230008CEFA /* GetOnBoardJobListingsTests.swift */; };
-		1DE9F55129C128230008CEFA /* GetOnBoardJobListingsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F55029C128230008CEFA /* GetOnBoardJobListingsUITests.swift */; };
-		1DE9F55329C128230008CEFA /* GetOnBoardJobListingsUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F55229C128230008CEFA /* GetOnBoardJobListingsUITestsLaunchTests.swift */; };
 		1DE9F56529C200BC0008CEFA /* Categories.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE9F56429C200BC0008CEFA /* Categories.swift */; };
 		61E3850529C4F03F00A1DF97 /* CategoryPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61E3850429C4F03F00A1DF97 /* CategoryPresenter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		1DE9F54329C128230008CEFA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 1DE9F52429C128220008CEFA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 1DE9F52B29C128220008CEFA;
-			remoteInfo = GetOnBoardJobListings;
-		};
-		1DE9F54D29C128230008CEFA /* PBXContainerItemProxy */ = {
+		1DE5575C29E59DFC005556D4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 1DE9F52429C128220008CEFA /* Project object */;
 			proxyType = 1;
@@ -55,6 +48,10 @@
 		1DB9388B29CBA35700AF8766 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
 		1DB9388D29CBAFB500AF8766 /* CompaniesPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesPresenter.swift; sourceTree = "<group>"; };
 		1DDBC8E129E341CD00104326 /* CompanyTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompanyTableViewCell.swift; sourceTree = "<group>"; };
+		1DE5575829E59DFC005556D4 /* GetOnBoardJobListingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnBoardJobListingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DE5576329E5BD8B005556D4 /* OffersViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OffersViewControllerTests.swift; sourceTree = "<group>"; };
+		1DE5576929E63474005556D4 /* CategoriesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoriesViewControllerTests.swift; sourceTree = "<group>"; };
+		1DE5576B29E638C3005556D4 /* CompaniesViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompaniesViewControllerTests.swift; sourceTree = "<group>"; };
 		1DE9F52C29C128220008CEFA /* GetOnBoardJobListings.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GetOnBoardJobListings.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1DE9F52F29C128220008CEFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1DE9F53129C128220008CEFA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -62,31 +59,19 @@
 		1DE9F53829C128230008CEFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DE9F53B29C128230008CEFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DE9F53D29C128230008CEFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DE9F54229C128230008CEFA /* GetOnBoardJobListingsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnBoardJobListingsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE9F54629C128230008CEFA /* GetOnBoardJobListingsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOnBoardJobListingsTests.swift; sourceTree = "<group>"; };
-		1DE9F54C29C128230008CEFA /* GetOnBoardJobListingsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GetOnBoardJobListingsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		1DE9F55029C128230008CEFA /* GetOnBoardJobListingsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOnBoardJobListingsUITests.swift; sourceTree = "<group>"; };
-		1DE9F55229C128230008CEFA /* GetOnBoardJobListingsUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetOnBoardJobListingsUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		1DE9F56429C200BC0008CEFA /* Categories.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Categories.swift; sourceTree = "<group>"; };
 		61E3850429C4F03F00A1DF97 /* CategoryPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryPresenter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		1DE5575529E59DFC005556D4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE9F52929C128220008CEFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DE9F53F29C128230008CEFA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DE9F54929C128230008CEFA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -96,12 +81,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1DE5575929E59DFC005556D4 /* GetOnBoardJobListingsTests */ = {
+			isa = PBXGroup;
+			children = (
+				1DE5576929E63474005556D4 /* CategoriesViewControllerTests.swift */,
+				1DE5576B29E638C3005556D4 /* CompaniesViewControllerTests.swift */,
+				1DE5576329E5BD8B005556D4 /* OffersViewControllerTests.swift */,
+			);
+			path = GetOnBoardJobListingsTests;
+			sourceTree = "<group>";
+		};
 		1DE9F52329C128220008CEFA = {
 			isa = PBXGroup;
 			children = (
 				1DE9F52E29C128220008CEFA /* GetOnBoardJobListings */,
-				1DE9F54529C128230008CEFA /* GetOnBoardJobListingsTests */,
-				1DE9F54F29C128230008CEFA /* GetOnBoardJobListingsUITests */,
+				1DE5575929E59DFC005556D4 /* GetOnBoardJobListingsTests */,
 				1DE9F52D29C128220008CEFA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -110,8 +104,7 @@
 			isa = PBXGroup;
 			children = (
 				1DE9F52C29C128220008CEFA /* GetOnBoardJobListings.app */,
-				1DE9F54229C128230008CEFA /* GetOnBoardJobListingsTests.xctest */,
-				1DE9F54C29C128230008CEFA /* GetOnBoardJobListingsUITests.xctest */,
+				1DE5575829E59DFC005556D4 /* GetOnBoardJobListingsTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -131,23 +124,6 @@
 				1DE9F53D29C128230008CEFA /* Info.plist */,
 			);
 			path = GetOnBoardJobListings;
-			sourceTree = "<group>";
-		};
-		1DE9F54529C128230008CEFA /* GetOnBoardJobListingsTests */ = {
-			isa = PBXGroup;
-			children = (
-				1DE9F54629C128230008CEFA /* GetOnBoardJobListingsTests.swift */,
-			);
-			path = GetOnBoardJobListingsTests;
-			sourceTree = "<group>";
-		};
-		1DE9F54F29C128230008CEFA /* GetOnBoardJobListingsUITests */ = {
-			isa = PBXGroup;
-			children = (
-				1DE9F55029C128230008CEFA /* GetOnBoardJobListingsUITests.swift */,
-				1DE9F55229C128230008CEFA /* GetOnBoardJobListingsUITestsLaunchTests.swift */,
-			);
-			path = GetOnBoardJobListingsUITests;
 			sourceTree = "<group>";
 		};
 		1DE9F55F29C1289C0008CEFA /* Models */ = {
@@ -184,6 +160,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		1DE5575729E59DFC005556D4 /* GetOnBoardJobListingsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1DE5575E29E59DFC005556D4 /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsTests" */;
+			buildPhases = (
+				1DE5575429E59DFC005556D4 /* Sources */,
+				1DE5575529E59DFC005556D4 /* Frameworks */,
+				1DE5575629E59DFC005556D4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1DE5575D29E59DFC005556D4 /* PBXTargetDependency */,
+			);
+			name = GetOnBoardJobListingsTests;
+			productName = GetOnBoardJobListingsTests;
+			productReference = 1DE5575829E59DFC005556D4 /* GetOnBoardJobListingsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		1DE9F52B29C128220008CEFA /* GetOnBoardJobListings */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1DE9F55629C128230008CEFA /* Build configuration list for PBXNativeTarget "GetOnBoardJobListings" */;
@@ -201,42 +195,6 @@
 			productReference = 1DE9F52C29C128220008CEFA /* GetOnBoardJobListings.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1DE9F54129C128230008CEFA /* GetOnBoardJobListingsTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DE9F55929C128230008CEFA /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsTests" */;
-			buildPhases = (
-				1DE9F53E29C128230008CEFA /* Sources */,
-				1DE9F53F29C128230008CEFA /* Frameworks */,
-				1DE9F54029C128230008CEFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1DE9F54429C128230008CEFA /* PBXTargetDependency */,
-			);
-			name = GetOnBoardJobListingsTests;
-			productName = GetOnBoardJobListingsTests;
-			productReference = 1DE9F54229C128230008CEFA /* GetOnBoardJobListingsTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		1DE9F54B29C128230008CEFA /* GetOnBoardJobListingsUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 1DE9F55C29C128230008CEFA /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsUITests" */;
-			buildPhases = (
-				1DE9F54829C128230008CEFA /* Sources */,
-				1DE9F54929C128230008CEFA /* Frameworks */,
-				1DE9F54A29C128230008CEFA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				1DE9F54E29C128230008CEFA /* PBXTargetDependency */,
-			);
-			name = GetOnBoardJobListingsUITests;
-			productName = GetOnBoardJobListingsUITests;
-			productReference = 1DE9F54C29C128230008CEFA /* GetOnBoardJobListingsUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -247,16 +205,13 @@
 				LastSwiftUpdateCheck = 1420;
 				LastUpgradeCheck = 1420;
 				TargetAttributes = {
+					1DE5575729E59DFC005556D4 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+						TestTargetID = 1DE9F52B29C128220008CEFA;
+					};
 					1DE9F52B29C128220008CEFA = {
 						CreatedOnToolsVersion = 14.2;
-					};
-					1DE9F54129C128230008CEFA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 1DE9F52B29C128220008CEFA;
-					};
-					1DE9F54B29C128230008CEFA = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 1DE9F52B29C128220008CEFA;
 					};
 				};
 			};
@@ -274,13 +229,19 @@
 			projectRoot = "";
 			targets = (
 				1DE9F52B29C128220008CEFA /* GetOnBoardJobListings */,
-				1DE9F54129C128230008CEFA /* GetOnBoardJobListingsTests */,
-				1DE9F54B29C128230008CEFA /* GetOnBoardJobListingsUITests */,
+				1DE5575729E59DFC005556D4 /* GetOnBoardJobListingsTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		1DE5575629E59DFC005556D4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE9F52A29C128220008CEFA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -290,23 +251,19 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DE9F54029C128230008CEFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DE9F54A29C128230008CEFA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		1DE5575429E59DFC005556D4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1DE5576A29E63474005556D4 /* CategoriesViewControllerTests.swift in Sources */,
+				1DE5576C29E638C3005556D4 /* CompaniesViewControllerTests.swift in Sources */,
+				1DE5576429E5BD8B005556D4 /* OffersViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		1DE9F52829C128220008CEFA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -328,35 +285,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		1DE9F53E29C128230008CEFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DE9F54729C128230008CEFA /* GetOnBoardJobListingsTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		1DE9F54829C128230008CEFA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1DE9F55329C128230008CEFA /* GetOnBoardJobListingsUITestsLaunchTests.swift in Sources */,
-				1DE9F55129C128230008CEFA /* GetOnBoardJobListingsUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		1DE9F54429C128230008CEFA /* PBXTargetDependency */ = {
+		1DE5575D29E59DFC005556D4 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 1DE9F52B29C128220008CEFA /* GetOnBoardJobListings */;
-			targetProxy = 1DE9F54329C128230008CEFA /* PBXContainerItemProxy */;
-		};
-		1DE9F54E29C128230008CEFA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 1DE9F52B29C128220008CEFA /* GetOnBoardJobListings */;
-			targetProxy = 1DE9F54D29C128230008CEFA /* PBXContainerItemProxy */;
+			targetProxy = 1DE5575C29E59DFC005556D4 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -372,6 +307,53 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		1DE5575F29E59DFC005556D4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOnBoardJobListings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOnBoardJobListings";
+			};
+			name = Debug;
+		};
+		1DE5576029E59DFC005556D4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOnBoardJobListings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOnBoardJobListings";
+			};
+			name = Release;
+		};
 		1DE9F55429C128230008CEFA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -540,81 +522,18 @@
 			};
 			name = Release;
 		};
-		1DE9F55A29C128230008CEFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOnBoardJobListings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOnBoardJobListings";
-			};
-			name = Debug;
-		};
-		1DE9F55B29C128230008CEFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GetOnBoardJobListings.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GetOnBoardJobListings";
-			};
-			name = Release;
-		};
-		1DE9F55D29C128230008CEFA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GetOnBoardJobListings;
-			};
-			name = Debug;
-		};
-		1DE9F55E29C128230008CEFA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "co.antonio-garin.GetOnBoardJobListingsUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = GetOnBoardJobListings;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		1DE5575E29E59DFC005556D4 /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1DE5575F29E59DFC005556D4 /* Debug */,
+				1DE5576029E59DFC005556D4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		1DE9F52729C128220008CEFA /* Build configuration list for PBXProject "GetOnBoardJobListings" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -629,24 +548,6 @@
 			buildConfigurations = (
 				1DE9F55729C128230008CEFA /* Debug */,
 				1DE9F55829C128230008CEFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DE9F55929C128230008CEFA /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DE9F55A29C128230008CEFA /* Debug */,
-				1DE9F55B29C128230008CEFA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		1DE9F55C29C128230008CEFA /* Build configuration list for PBXNativeTarget "GetOnBoardJobListingsUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				1DE9F55D29C128230008CEFA /* Debug */,
-				1DE9F55E29C128230008CEFA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

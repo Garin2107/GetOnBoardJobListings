@@ -5,15 +5,17 @@ class CategoriesViewController: UIViewController {
 	
     let presenter = CategoryPresenter()
     var categories: Categories?
+	let categoriesTable = UITableView()
 	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		title = "Categories"
 		
-		view.addSubview(tableView)
-		tableView.delegate = self
-		tableView.dataSource = self
-		tableView.backgroundColor = .white
+		view.addSubview(categoriesTable)
+		categoriesTable.delegate = self
+		categoriesTable.dataSource = self
+		categoriesTable.backgroundColor = .white
+		categoriesTable.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
 		
 		presenter.setViewDelegate(delegate: self)
 		presenter.getCategories()
@@ -21,15 +23,10 @@ class CategoriesViewController: UIViewController {
 	
 	override func viewDidLayoutSubviews() {
 		super.viewDidLayoutSubviews()
-		tableView.frame = view.bounds
-		tableView.reloadData()
+		categoriesTable.frame = view.bounds
+		categoriesTable.reloadData()
 	}
     
-    private let tableView: UITableView = {
-        let table = UITableView()
-        table.register(UITableViewCell.self, forCellReuseIdentifier: "cell")
-        return table
-    } ()
 }
 
 extension CategoriesViewController: UITableViewDataSource {
@@ -64,7 +61,7 @@ extension CategoriesViewController: CategoryPresenterDelegate {
     func presentCategories(category: Categories) {
         self.categories = category
         DispatchQueue.main.async {
-            self.tableView.reloadData()
+            self.categoriesTable.reloadData()
         }
     }
 }

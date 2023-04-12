@@ -1,16 +1,16 @@
 
 import Foundation
 
-struct OffersResponse: Decodable {
+struct OffersResponse: Codable {
 	let data: [Offers]?
 }
 
-struct Offers: Decodable {
+struct Offers: Codable {
 	let id: String?
 	let attributes: AttributesOffers?
 }
 
-struct AttributesOffers: Decodable {
+struct AttributesOffers: Codable {
 	let title: String?
 	let description: String?
 	let functions: String?
